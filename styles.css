@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #121212;
 }
 
 header {
@@ -28,6 +29,7 @@ main {
 #quest-container {
     width: 100%;
     max-width: 800px;
+    background-color: #121212;
 }
 
 .dungeon {
@@ -58,6 +60,7 @@ main {
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 10px 15px;
+    background-color: #121212;
 }
 
 .quest-title {
@@ -104,6 +107,7 @@ footer {
     flex: 0 0 auto;
     padding: 20px;
     color: #ffffff;
+    background-color: #121212;
 }
 
 /* width */
