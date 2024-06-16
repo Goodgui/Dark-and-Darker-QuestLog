@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Quest Book</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dark and Darker Quest Book</h1>
+    </header>
+    <main>
+        <div id="quest-container">
+            <div id="quest-log"></div>
+            <div class="dungeon" id="completed-quests-container">
+                <div id="completed-quests-title" class="dungeon-title expandable-title">
+                    <span class="dropdown-arrow">▼</span>
+                    Completed Quests
+                    <button id="reset-button">Reset</button>
+                </div>
+                <div id="completed-quests" class="completed-quests"></div>
+            </div>
+        </div>
+    </main>
+    <script src="quests.js"></script>
+    <script src="QuestLog.js"></script>
+    <footer>
+        <p style="margin-left: 20px;">Created by Goodgu</p>
+        <ul>
+            <li>Map images from <a href="https://darkanddarker.map.spellsandguns.com/map">Spells and Guns</a></li>
+            <li>Font <a href="https://fonts.google.com/specimen/Nunito">Nunito</a></li>
+            <li>Icons created with DALLE3</li>
+            <li>Contact: Discord</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
