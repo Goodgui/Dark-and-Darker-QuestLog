@@ -13,7 +13,7 @@ A web-based quest tracking tool for the game **Dark and Darker**. Track quest pr
 
 ## Usage
 
-1. Open `index.html` in your web browser
+1. Visit the [Online Browser Version](https://goodgui.github.io/Dark-and-Darker-QuestLog/) or open `index.html` in your web browser
 2. Check off tasks as you complete them in-game
 3. Completed quests will automatically move to the "Completed Quests" section
 
