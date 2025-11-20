@@ -10,6 +10,8 @@ body {
     flex-direction: column;
     height: 100vh;
     background-color: #121212;
+    min-width: 350px;
+    /* overflow-x: hidden; */
 }
 
 header {
@@ -65,7 +67,7 @@ main {
 
 .quest-title {
     font-size: 1.3em;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,8 +91,9 @@ main {
 
 .task-checkbox {
     transform: scale(2);
+    margin-top: 9px;
     margin-left: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 9px;
 }
 
 #reset-button {
